@@ -1,0 +1,783 @@
+# Copyright (C) 2017 Kite.ly Merch
+# This file is distributed under the same license as the Kite.ly Merch package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kite.ly Merch 1.0.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/kite-print-and-"
+"dropshipping-on-demand\n"
+"POT-Creation-Date: 2017-03-29 14:05:08+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: help.php:19 plugin.php:1972
+msgid "General"
+msgstr ""
+
+#: help.php:20
+msgid ""
+"<p>Here you can find the settings related to the general functioning of the "
+"Kite.ly Merch Plugin. Please see the individual subsection tabs for more "
+"detail on the available settings.</p>"
+msgstr ""
+
+#: help.php:23
+msgid "Kite settings"
+msgstr ""
+
+#: help.php:25
+msgid ""
+"<p>These settings affect the way the main Kite server interacts with your "
+"store.</p><dl><dt>Credit card info</dt><dd>The details for the credit card "
+"you will use to pay your Kite invoices. A valid credit card needs to be "
+"registered so that we can bill you for the wholesale and shipping costs of "
+"any Kite products ordered. Orders cannot be processed until this field is "
+"complete. </dd><dt>Kite live mode</dt><dd>Unchecking this box will set Kite "
+"to work in test mode, meaning that you can place test orders not intended "
+"for fulfilment.<br />We suggest that you only use test mode when your site "
+"is offline to prevent any genuine customer orders being overlooked. However, "
+"if you were to receive real orders in test mode, it would be possible to "
+"switch back to live mode later on and manually resend your test orders as "
+"live ones.</dd><dt>Publish product status</dt><dd>This determines the "
+"default status of Kite products when published in your store. They can "
+"either be \"published\", making them visible to all of your customers, or "
+"\"private\", making them visible only to admin. This works in a similar way "
+"to WordPress' <a href=\"https://en.support.wordpress.com/post-visibility/"
+"\">post visibility settings</a>.</dd><dt>Fast products publishing</"
+"dt><dd>Having Fast Product Publishing turned on will significantly speed up "
+"the process of adding new products. If you’re experiencing problems however, "
+"uncheck the box to return to the ordinary version.</dd></dl>"
+msgstr ""
+
+#: help.php:28 plugin.php:933
+msgid "Appearance"
+msgstr ""
+
+#: help.php:29
+msgid ""
+"<p>These settings describe how Kite.ly Merch Plugin influences the look of "
+"your store and your WooCommerce orders section (don't worry, we're not too "
+"intrusive &#x1F603;).</p><dl><dt>Image size</dt><dd>In general, WordPress "
+"themes will automatically determine the size of displayed images, including "
+"those of Kite products and their variants. If this does not happen, these "
+"dimensions will be used as the default values.</dd><dt>Add processing notes "
+"to orders</dt><dd>Kite.ly Merch will by default add order notes to any "
+"orders containing Kite products as it progresses through our system. If you "
+"do not wish to receive these updates, uncheck the box to switch them off. </"
+"dd></dl>"
+msgstr ""
+
+#: help.php:32 plugin.php:954
+msgid "Product attributes"
+msgstr ""
+
+#: help.php:33
+msgid ""
+"<p>Choose which additional product information you want displayed alongside "
+"your Kite products.</p><p>Changing this option will only set the course for "
+"newly created products. Existing products will need to be edited "
+"individually in Products > Edit Product > Product Data > Attributes. </p>"
+msgstr ""
+
+#: help.php:38 kite.php:1419 plugin.php:1973
+msgid "Shipping"
+msgstr ""
+
+#: help.php:39
+msgid ""
+"<p> Shipping costs for Kite orders vary by product type and destination "
+"country. Kite.ly Merch Plug-in can create new shipping classes to properly "
+"set up item\\’s shipping costs, so that you don\\’t accidentally leave "
+"yourself out-of-pocket.</p><p>The first section, “Defined shipping zones”, "
+"displays any shipping zones you have already set up in WooCommerce. You can "
+"attach the Kite equivalent to each of those zones using the dropdown beside "
+"them.</p><p>The second section, “Define new shipping zones” gives you the "
+"option to have Kite.ly Merch create new WooCommerce shipping zones that "
+"correspond with its own (USA, UK, Europe, Rest of World). Note: This is "
+"useful if you don't already have these zones defined, but should not be used "
+"if it causes overlap with existing zones, as this can confuse WooCommerce.</"
+"p>"
+msgstr ""
+
+#: help.php:44 plugin.php:1974
+msgid "Categories"
+msgstr ""
+
+#: help.php:45
+msgid ""
+"<p>To streamline the publishing process and make site navigation easier, "
+"Kite can automatically add new products to your <a href=\"https://docs."
+"woocommerce.com/document/managing-product-taxonomies/\">categories</a> and "
+"even dynamically create new ones. </p>"
+msgstr ""
+
+#: help.php:48 plugin.php:1026
+msgid "Ranges' categories"
+msgstr ""
+
+#: help.php:49
+msgid ""
+"<p>If you want a dynamically created category for each titled product range, "
+"choose a parent category under which these will be added.</p>"
+msgstr ""
+
+#: help.php:52 plugin.php:1039
+msgid "Products' categories"
+msgstr ""
+
+#: help.php:53
+msgid ""
+"<p>Here you can define which of your own categories are the best fit for the "
+"products belonging to the listed products categories.</p><p>There are also "
+"two special settings: \"Create on save\", which will create a corresponding "
+"category (under the parent category of your choosing) when you click \"Save"
+"\", and \"Ignore\", which means that the products of this product type will "
+"not get assigned a category.</p><p>The \"Undefined categories\" section "
+"makes it easier to set up these options, by setting all unset ones to "
+"\"Create on save\" (with the parent of your choosing), or by trying to "
+"autodetect which of your existing categories would be a best fit for any "
+"product type which you haven't already set up.</p>"
+msgstr ""
+
+#: help.php:58 help.php:67
+msgid "Intro"
+msgstr ""
+
+#: help.php:61
+msgid ""
+"These tools perform various maintenance tasks. Activating them from here is "
+"not usually necessary, as Kite.ly Merch should take care of these things "
+"automatically. The tools below allow you to:</p><p>Refresh certain "
+"maintenance functions (which would normally be updated periodically)</"
+"p><p>Restore default Kite.ly Merch settings if they have been changed.</"
+"p><p>Please note that, depending on the number of the affected items, some "
+"of these may take a long time to finish."
+msgstr ""
+
+#: help.php:70
+msgid "If you're here, you're not supposed to need help. :-P"
+msgstr ""
+
+#: kite.php:263
+msgid "Kite order completed."
+msgstr ""
+
+#: kite.php:953
+msgid "last update"
+msgstr ""
+
+#: kite.php:1187 kite.php:1197 kite.php:1374
+msgid "product"
+msgstr ""
+
+#: kite.php:1212
+msgid "Summaries for the orders containing %s items"
+msgstr ""
+
+#: kite.php:1224 kite.php:1260
+msgid "Last update"
+msgstr ""
+
+#: kite.php:1228
+msgid "Kite is not set up!"
+msgstr ""
+
+#: kite.php:1230 kite.php:1272
+msgid "Kite is in test mode."
+msgstr ""
+
+#: kite.php:1284
+msgid "Send order to Kite"
+msgstr ""
+
+#: kite.php:1286
+msgid ""
+"Resend this order to Kite<br />(it was already sent, but only as a test "
+"order)"
+msgstr ""
+
+#: kite.php:1300 kite.php:1318
+msgid "order status"
+msgstr ""
+
+#: kite.php:1303
+msgid "Click to reload the status"
+msgstr ""
+
+#: kite.php:1325
+msgid "Fetching %s order status"
+msgstr ""
+
+#: kite.php:1326 kite.php:1348 tools.php:61
+msgid "Update now"
+msgstr ""
+
+#: kite.php:1329 tools.php:52
+msgid "Send now"
+msgstr ""
+
+#: kite.php:1331
+msgid "Resend now"
+msgstr ""
+
+#: kite.php:1333
+msgid "Resend now as a live order"
+msgstr ""
+
+#: kite.php:1339
+msgid "Sending order to"
+msgstr ""
+
+#: kite.php:1347
+msgid "Fetching Kite order status"
+msgstr ""
+
+#: kite.php:1375
+msgid "Status"
+msgstr ""
+
+#: kite.php:1418
+msgid "Wholesale"
+msgstr ""
+
+#: kite.php:1420
+msgid "Taxes"
+msgstr ""
+
+#: kite.php:1421
+msgid "You pay"
+msgstr ""
+
+#: kite.php:1428
+msgid "Customer items"
+msgstr ""
+
+#: kite.php:1435
+msgid "Customer shipping"
+msgstr ""
+
+#: kite.php:1445
+msgid "Customer paid"
+msgstr ""
+
+#: kite.php:1455
+msgid "Your profit"
+msgstr ""
+
+#: kite.php:1477
+msgid "order"
+msgstr ""
+
+#: kite.php:1483
+msgid "items only"
+msgstr ""
+
+#: kite.php:1491
+msgid "Number of tems per status"
+msgstr ""
+
+#: kite.php:1501
+msgid ""
+"The order contains products that were not created by this plugin. This means "
+"that, depending on your shipping settings, the profit calculation might be "
+"incorrect, as we cannot account for what proportion of customer shipping "
+"costs/discounts were applied to which product."
+msgstr ""
+
+#: kite.php:1508
+msgid "This section will become available after the Kite order is processed."
+msgstr ""
+
+#: kite.php:1846
+msgid "Order with %1$s items failed due to the following reason%1$s"
+msgstr ""
+
+#: kite.php:1895
+msgid "Order with %s items sent to Kite."
+msgstr ""
+
+#: kite.php:1896
+msgid "Test order with %s items sent to Kite."
+msgstr ""
+
+#: kite.php:1997
+msgid "Error fetching new status"
+msgstr ""
+
+#: kite.php:2002
+msgid "Reload the page to see all the changes"
+msgstr ""
+
+#: plugin.php:36
+msgid "Kite.ly Merch Plugin"
+msgstr ""
+
+#: plugin.php:40
+msgid "Please go to %s and set up your shipping zones."
+msgstr ""
+
+#: plugin.php:44
+msgid "Kite.ly Merch Shipping settings"
+msgstr ""
+
+#: plugin.php:173
+msgid "Front side"
+msgstr ""
+
+#: plugin.php:175
+msgid "Back side"
+msgstr ""
+
+#: plugin.php:185
+msgid "WooCommerce"
+msgstr ""
+
+#: plugin.php:190
+msgid ""
+"%1$s requires %2$s plugin to function correctly. Please activate %2$s before "
+"activating %1$s. For now, the plugin has been deactivated."
+msgstr ""
+
+#: plugin.php:863
+msgid "Kite.ly Products"
+msgstr ""
+
+#: plugin.php:882
+msgid "settings"
+msgstr ""
+
+#: plugin.php:888
+msgid "Credit card info"
+msgstr ""
+
+#: plugin.php:895
+msgid "live mode"
+msgstr ""
+
+#: plugin.php:914
+msgid "Publish product status"
+msgstr ""
+
+#: plugin.php:923
+msgid "Fast products publishing"
+msgstr ""
+
+#: plugin.php:924
+msgid "Turn this off in case of problems with adding products."
+msgstr ""
+
+#: plugin.php:939
+msgid "Image size"
+msgstr ""
+
+#: plugin.php:946
+msgid "Add processing notes to orders"
+msgstr ""
+
+#: plugin.php:975
+msgid "Defined shipping zones"
+msgstr ""
+
+#: plugin.php:977
+msgid "Autodetect the missing ones"
+msgstr ""
+
+#: plugin.php:995
+msgid "Define new shipping zones"
+msgstr ""
+
+#: plugin.php:997
+msgid "Suggest which to create"
+msgstr ""
+
+#: plugin.php:1032
+msgid "Parent category"
+msgstr ""
+
+#: plugin.php:1076
+msgid "Don't set"
+msgstr ""
+
+#: plugin.php:1081
+msgid "Undefined categories"
+msgstr ""
+
+#: plugin.php:1084
+msgid "Set to"
+msgstr ""
+
+#: plugin.php:1085 plugin.php:1673 plugin.php:1785
+msgid "Create on save"
+msgstr ""
+
+#: plugin.php:1087 plugin.php:1801
+msgid "with parent"
+msgstr ""
+
+#: plugin.php:1092
+msgid "Try to autodetect categories"
+msgstr ""
+
+#: plugin.php:1093
+msgid "you'll still need to save afterwards"
+msgstr ""
+
+#: plugin.php:1122
+msgid "Product shipping class for Kite products with template \"%s\""
+msgstr ""
+
+#: plugin.php:1544
+msgid ""
+"Synchronization with Kite has failed.<br />The most common cause of this "
+"problem is using the plug-in with an email address that is already "
+"registered to a Kite account. If this is the case, you should receive an "
+"email that will allow you to join the accounts via a confirmation link."
+msgstr ""
+
+#: plugin.php:1568
+msgid ""
+"Card details must be completed in order for us to fulfil your Kite orders. "
+"Kite does not store your credit card information, and will charge you only "
+"for the wholesale + shipping costs of your orders via Stripe."
+msgstr ""
+
+#: plugin.php:1569
+msgid ""
+"If you just want to test Kite.ly Merch Plugin for now, you can turn off Kite "
+"live mode below. Everything will work as it should (even without supplying "
+"credit card info), but you won’t be charged and your test orders will not be "
+"fulfilled."
+msgstr ""
+
+#: plugin.php:1577
+msgid "Current card"
+msgstr ""
+
+#: plugin.php:1579
+msgid "Delete card"
+msgstr ""
+
+#: plugin.php:1588
+msgid "Card Number"
+msgstr ""
+
+#: plugin.php:1595
+msgid "Expiration (MM/YY)"
+msgstr ""
+
+#: plugin.php:1617
+msgid "CVC"
+msgstr ""
+
+#: plugin.php:1677
+msgid "Rest of the World"
+msgstr ""
+
+#: plugin.php:1786
+msgid "Ignore"
+msgstr ""
+
+#: plugin.php:1930
+msgid "Autodetect"
+msgstr ""
+
+#: tools.php:13
+msgid "Reload Configuration"
+msgstr ""
+
+#: tools.php:14
+msgid "Reload"
+msgstr ""
+
+#: tools.php:15
+msgid "This tool will reload the Kite.ly Merch Plugin configuration."
+msgstr ""
+
+#: tools.php:16
+msgid "The Kite.ly Merch Plugin configuration has been updated"
+msgstr ""
+
+#: tools.php:18
+msgid " (the next automatic update: %s)"
+msgstr ""
+
+#: tools.php:19
+msgid ""
+"<p>Kite.ly Merch Plugin has some configuration loaded automatically once a "
+"week. This includes shipping costs, automatically generated categories, etc."
+"</p><p>This tool will reload configuration immedaitelly.</p>"
+msgstr ""
+
+#: tools.php:27
+msgid "Account Registration"
+msgstr ""
+
+#: tools.php:28
+msgid "Retry Registration"
+msgstr ""
+
+#: tools.php:29
+msgid ""
+"Attempts to register a Kite account with your Wordpress admin e-mail address."
+msgstr ""
+
+#: tools.php:30 tools.php:39
+msgid "Registration request sent"
+msgstr ""
+
+#: tools.php:32
+msgid ""
+"<p>In order to process and fulfil your Kite orders, Kite.ly Merch Plugin "
+"needs to register with our main server. This is usually done automatically "
+"using your Wordpress admin email address.</p><p>If there is already an "
+"account associated with that email address, you will receive an e-mail with "
+"a confirmation link enabling you to to link your existing account with a "
+"single click.</p><p>This tool will repeat the registration attempt. If it "
+"fails again, the confirmation email will be resent to you.</p>"
+msgstr ""
+
+#: tools.php:35
+msgid "Alternative Registration"
+msgstr ""
+
+#: tools.php:36
+msgid "Register with this email:"
+msgstr ""
+
+#: tools.php:38
+msgid ""
+"Attempts to register a Kite account with an alternative e-mail address, that "
+"you provide above."
+msgstr ""
+
+#: tools.php:40
+msgid "Invalid email address"
+msgstr ""
+
+#: tools.php:42
+msgid ""
+"<p>In order to process and fulfil your Kite orders, Kite.ly Merch Plugin "
+"needs to register with our main server. This is usually done automatically "
+"using your Wordpress account email address.</p><p>If there is already an "
+"account associated with that email address, you will receive an e-mail with "
+"a confirmation link enabling you to to link your existing account with a "
+"single click.</p><p>This tool allows you to register with our main server "
+"using a different email address from the one you use with your Wordpress/"
+"WooCommerce store.</p>"
+msgstr ""
+
+#: tools.php:51
+msgid "Unsent Orders"
+msgstr ""
+
+#: tools.php:53
+msgid "Submits all unsent Kite orders to Kite immediately."
+msgstr ""
+
+#: tools.php:54
+msgid "Kite orders dispatched"
+msgstr ""
+
+#: tools.php:56 tools.php:65
+msgid " (number of such orders: %d)"
+msgstr ""
+
+#: tools.php:57
+msgid ""
+"<p>Orders will be sent to the Kite server periodically. This tool will "
+"attempt send your queued Kite orders immediately.</p>"
+msgstr ""
+
+#: tools.php:60
+msgid "Order Statuses"
+msgstr ""
+
+#: tools.php:62
+msgid "Refreshes the status of all incomplete Kite orders."
+msgstr ""
+
+#: tools.php:63
+msgid "Kite orders' statuses updated"
+msgstr ""
+
+#: tools.php:66
+msgid ""
+"<p>Kite.ly Merch Plugin periodically checks the statuses of current Kite "
+"orders and updates the data in your WooCommerce Orders section.</p><p>This "
+"tool requests an immediate update for all orders that are not yet marked as "
+"either fulfilled or failed.</p>"
+msgstr ""
+
+#: tools.php:69
+msgid "Missing Images"
+msgstr ""
+
+#: tools.php:70
+msgid "Add Kite Images"
+msgstr ""
+
+#: tools.php:71
+msgid "Sets a Kite image for Kite products that don't have one set."
+msgstr ""
+
+#: tools.php:72
+msgid "Kite products' images updated"
+msgstr ""
+
+#: tools.php:74 tools.php:84 tools.php:94 tools.php:104
+msgid " (number of such products: %d)"
+msgstr ""
+
+#: tools.php:75
+msgid ""
+"<p>Kite product images are generated dynamically. In order for that to work "
+"correctly, both the products and the variants need to have a specific image "
+"set. This image is automatically added to your Media Library and set as a "
+"placeholder product/variant image for all Kite products.</p><p>In cases "
+"where products and/or their variants are missing this image, this tool will "
+"reset it.</p>"
+msgstr ""
+
+#: tools.php:79
+msgid "Reset Images"
+msgstr ""
+
+#: tools.php:80
+msgid "Reset Kite Images"
+msgstr ""
+
+#: tools.php:81
+msgid ""
+"Sets a Kite image for <b>all</b> Kite products, regardless of them having "
+"one set or not."
+msgstr ""
+
+#: tools.php:82
+msgid "Kite products' images reset"
+msgstr ""
+
+#: tools.php:85
+msgid ""
+"<p>Kite product images are generated dynamically. In order for that to work "
+"correctly, both the products and the variants need to have a specific image "
+"set. This image is automatically added to your Media Library and set as a "
+"placeholder product/variant image for all Kite products.</p><p>This tool "
+"will reset that image for all Kite products and their variants, <b>including "
+"those which you may have replaced with another image</b>.</p>"
+msgstr ""
+
+#: tools.php:89
+msgid "Missing Shipping Classes"
+msgstr ""
+
+#: tools.php:90
+msgid "Add Shipping Classes"
+msgstr ""
+
+#: tools.php:91
+msgid "Sets a proper shipping class for Kite products that don't have one set."
+msgstr ""
+
+#: tools.php:92
+msgid "Kite products' shipping classes updated"
+msgstr ""
+
+#: tools.php:95
+msgid ""
+"<p>In order for your store to be able to calculate accurate shipping costs, "
+"Kite products and their variants should have their shipping class properly "
+"set. If your store shipping zones have been setup to correspond with Kite "
+"shipping zones (in Kite.ly Merch&gt;Settings&gt;Shipping), this is done "
+"automatically.</p><p>If certain Kite products and/or variants have been "
+"created without shipping classes or had their shipping classes deleted, this "
+"tool will reset them to their proper values.</p>"
+msgstr ""
+
+#: tools.php:99 tools.php:100
+msgid "Reset Shipping Classes"
+msgstr ""
+
+#: tools.php:101
+msgid ""
+"Sets a proper shipping class for <b>all</b> Kite products, regardless of "
+"them having one set or not."
+msgstr ""
+
+#: tools.php:102
+msgid "Kite products' shipping classes reset"
+msgstr ""
+
+#: tools.php:105
+msgid ""
+"<p>In order for your store to be able to calculate accurate shipping costs, "
+"Kite products and their variants should have their shipping class properly "
+"set. If your store shipping zones have been setup to correspond with Kite "
+"shipping zones (in Kite.ly Merch&gt;Settings&gt;Shipping), this is done "
+"automatically.</p><p>This tool will reset all Kite products and variants to "
+"their prescribed shipping class, even if they have been previously changed "
+"or deleted.</p>"
+msgstr ""
+
+#: tools.php:109
+msgid "Unistall"
+msgstr ""
+
+#: tools.php:110
+msgid "Remove Kite.ly Merch Plugin and Erase All Data"
+msgstr ""
+
+#: tools.php:112
+msgid ""
+"This will permanently remove all Kite.ly Merch Plugin data (products and "
+"their images, Kite-specific information on orders, Kite account information, "
+"shipping classes, dynamically created categories, etc.) from your Wordpress "
+"database, and deactivate the plugin.<br /><span class=\"wookite-uninstall-"
+"warning\">Warning: There is no undo for this action!</span>"
+msgstr ""
+
+#: tools.php:113
+msgid ""
+"Unless you have a fresh backup of your database, it is impossible to undo "
+"this action. Are you sure that you want to proceed?"
+msgstr ""
+
+#: tools.php:114
+msgid ""
+"<p>In order to function properly, Kite.ly Merch Plugin needs to save its "
+"data in Wordpress' database. This data is automatically removed if you "
+"decide to “delete” the plugin via Wordpress' interface. </p><p>If you prefer "
+"manual (un)installation, this tool will do most of the job (you will still "
+"need to delete the plugin directory manually).</p><p>If you do decide to "
+"uninstall, we would appreciate your feedback via <a href=\"hello@kite.ly"
+"\">email</a> so that we can continue to improve the plug-in.</p><p>Please "
+"note that there is <b>no way to undo</b> this tool's work - all data "
+"including products, settings and connections will be permanently erased. If "
+"you only wish to temporarily remove the plug-in, please \"Deactivate\" it "
+"via the <a href=\"plugins.php\">Plugins page</a> instead.</p>"
+msgstr ""
+
+#: view-tools.php:31
+msgid "Kite is in test mode"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Kite.ly Merch"
+msgstr ""
+
+#. #-#-#-#-#  kite-print-and-dropshipping-on-demand.pot (Kite.ly Merch 1.0.8)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  kite-print-and-dropshipping-on-demand.pot (Kite.ly Merch 1.0.8)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://kite.ly/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Kite.ly Merch Plugin for WooCommerce"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Kite.ly Team"
+msgstr ""

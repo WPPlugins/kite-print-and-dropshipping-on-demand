@@ -1,0 +1,294 @@
+.wookite_fineprint {
+	font-size: 68%;
+}
+
+/* Admin > Settings > General */
+
+form.wookite {
+	background-image: url(bg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	max-width: 700px;
+}
+
+#wookite_cat_make_all,
+#wookite_cat_autodetect {
+	height: 4.5ex;
+}
+
+.wookite-notification {
+	color: #080;
+	font-weight: 700;
+	text-align: justify;
+}
+
+#wookite_payment_errors {
+	color: #800;
+}
+
+div.wookite#new_card {
+	display: none;
+}
+
+span.wookite-value {
+	border: 1px solid #aaa;
+	display: inline-block;
+	font-family: monospace;
+	margin: 0.3em 0;
+	padding: 0.3em 0.5em;
+}
+
+/* Admin > Settings > Shipping */
+
+#autodetect_shipping_zones {
+	display: none;
+}
+
+/* Admin > WooCommerce > Orders */
+
+@font-face {
+	font-family: Kite;
+	src: local("Kite"), url(kite.ttf);
+}
+
+.wookite.button {
+	display: block;
+	height: 2em !important;
+	padding: 0 !important;
+	position: relative;
+	text-indent: -9999px;
+	width: 2em;
+}
+
+.wookitext {
+	font-family: Kite;
+	font-size: 131%;
+	font-weight: 700;
+	vertical-align: top;
+}
+
+.wookitext.bottom {
+	vertical-align: bottom;
+}
+
+span.wookitext.wookite-in-list {
+	font-size: 1.7em;
+	font-weight: 400;
+	display: inline-block;
+	padding: 0.1em 0 0 0;
+}
+
+div.wookite-order-title {
+	font-size: 117%;
+	font-weight: 700;
+}
+
+.wookitext.wookite-order-k {
+	display: inline-block;
+	padding: 0.3em 0 0 0 !important;
+}
+
+.wookitext.wookite-order-some {
+	font-weight: 100 !important;
+}
+
+.wookitext.wookite-order-all {
+	font-weight: 700 !important;
+}
+
+.wookitext.wookite-big {
+	font-size: 1.7em;
+	font-weight: 400;
+}
+
+.wookite.button:after {
+	font-family: Kite;
+	-webkit-font-smoothing: antialiased;
+	font-variant: normal;
+	font-weight: 700;
+	height: 100%;
+	left: 0;
+	line-height: 1.85;
+	margin: 0;
+	position: absolute;
+	speak: none;
+	text-align: center;
+	text-indent: 0;
+	text-transform: none;
+	top: 0;
+	width: 100%;
+}
+
+.wookite.button.query:after {
+	content: "?";
+}
+
+.wookite.button.send:after {
+	content: ">";
+}
+
+.wookite.status {
+	font-weight: 700;
+}
+
+#tiptip_holder .wookite.status.cancelled {
+	color: #ff4040;
+}
+
+#tiptip_holder .wookite.status.processed {
+	color: #a0ffa0;
+}
+
+.form-field.form-field-wide.wc-customer-user.wookite .wookite.status.cancelled,
+.form-field.form-field-wide.wc-customer-user.wookite .wookite.status.error {
+	color: #d00000;
+}
+
+.form-field.form-field-wide.wc-customer-user.wookite .wookite.status.processed {
+	color: #008000;
+}
+
+.wookite.button.yeskite,
+.wookite.button.query.processed:after {
+	background-color: #e0ffe0 !important;
+	border-color: #a0ffa0 !important;
+	color: #008000 !important;
+}
+
+.wookite.button.nokite,
+.wookite.button.query.cancelled:after {
+	background-color: #ffe0e0 !important;
+	border-color: #ffa0a0 !important;
+	color: #ff4040 !important;
+}
+
+.testkite {
+	background-color: #ffffe0 !important;
+	border-color: #ffff80 !important;
+	color: #aaaa00 !important;
+}
+
+.wookite-warning {
+	color: #ffd0d0 !important;
+}
+
+.wookite-test {
+	color: #ffffa0 !important;
+}
+
+/* Admin > Products */
+
+th#wookite,
+td.wookite.column-wookite {
+	padding-top: 4px;
+	text-align: center;
+	width: 2em;
+}
+
+img.wookite.some {
+	opacity: 0.51;
+}
+
+table.wookite-columns>tbody>tr>td {
+	border: none !important;
+	padding: 0 1em;
+}
+span.wookite-order-totals-logo {
+	font-size: 191%;
+	font-weight: 100;
+	opacity: 0.7;
+}
+
+h1>span.wookitext {
+	display: inline-block;
+	font-weight: 200;
+	margin: -1px 0.1em 1px 0;
+}
+
+td.wookite-order-totals,
+table.wookite-disclaimer td {
+	cursor: auto !important;
+}
+
+td.wookite-order-totals h4 {
+	font-weight: 400;
+	margin: 4px 0;
+}
+
+span#kite_order_id {
+	font-weight: 700;
+}
+
+table.wookite-order-totals td,
+table.wookite-disclaimer td {
+	border: none !important;
+	cursor: auto !important;
+	padding: 3px 0 !important;
+}
+
+table.wookite-order-totals td.label {
+	padding-right: 11px !important;
+	text-align: left !important;
+	white-space: nowrap;
+}
+
+table.wookite-order-totals td.total {
+	padding-left: 5px !important;
+}
+
+table.wookite-order-totals tr.total td.label {
+	font-weight: 700;
+}
+
+table.wookite-order-totals tr.total td.total,
+table.wookite-order-totals td.overline {
+	border-top: 2px solid #67b6db !important;
+}
+
+table.wookite-order-totals td.total {
+	font-weight: 700 !important;
+	text-align: right !important;
+}
+
+ul.wookite-ul {
+	list-style: disc;
+	margin: 0.5em 0 0 2em;
+}
+
+.wookite-disclaimer {
+	font-size: 83%;
+	line-height: 2ex;
+	text-align: justify;
+}
+
+table.wookite-disclaimer>tbody>tr>td {
+	padding: 0 3px !important;
+	text-align: justify !important;
+}
+
+span#wookite_statuses_title {
+	font-weight: 700;
+}
+
+span.wookite-tool-info {
+	font-size: 13px;
+}
+
+/* Admin > Tools */
+
+.button.wookite-uninstall {
+	background-color: #fcc;
+	border-color: #faa;
+	color: #800;
+}
+
+.button.wookite-uninstall:hover {
+	background-color: #fcc;
+	border-color: #c66;
+	color: #800;
+}
+
+.wookite-uninstall-warning {
+	color: #f00;
+	font-weight: 700;
+}

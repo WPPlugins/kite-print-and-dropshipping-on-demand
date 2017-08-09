@@ -1,0 +1,42 @@
+body {
+	margin-top: 0 !important;
+}
+
+#wpwrap,
+#wpcontent,
+#wpbody,
+#wpbody-content {
+	height: 100%;
+	position: relative;
+	top: 0px;
+}
+
+#wpcontent {
+	padding-left: 0;
+}
+
+#wpbody-content>.ng-scope>.ng-scope,
+.container-kite {
+	margin-top: 0px !important;
+}
+
+.kite.ng-scope a:focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+.kite-navigation-bar {
+	position: absolute !important;
+}
+
+.container-kite {
+	margin-top: 32px !important;
+}
+
+.product-range-carousel {
+  margin-top: 50px !important;
+}
+
+.notice, .woocommerce-message {
+    display: none !important;
+}

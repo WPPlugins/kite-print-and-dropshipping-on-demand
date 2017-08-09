@@ -1,0 +1,31 @@
+#wookite_front_back_picker {
+    margin: 2px 0 17px;
+}
+
+#wookite_front_side {
+    border-radius: 7px 0 0 7px;
+}
+
+#wookite_back_side {
+    border-radius: 0 7px 7px 0;
+}
+
+#wookite_front_back_picker span {
+    box-shadow: 2px 2px 5px #aaa;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 11px;
+    transition-duration: .31s;
+}
+
+#wookite_front_back_picker span.active {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+#wookite_front_back_picker span.inactive {
+    background-color: #eee;
+    border: 1px solid gray;
+    color: gray;
+}
